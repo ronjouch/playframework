@@ -35,7 +35,7 @@ First, define a case class which contains the elements you want in the form.  He
 
 @[userData-define](code/ScalaForms.scala)
 
-Now that we have a case class, the next step is to define a [`Form`](api/scala/play/api/data/Form.html) structure. The function of a `Form is to transform form data into a bound instance of a case class, and we define it like follows:
+Now that we have a case class, the next step is to define a [`Form`](api/scala/play/api/data/Form.html) structure. The function of a `Form` is to transform form data into a bound instance of a case class, and we define it like follows:
 
 @[userForm-define](code/ScalaForms.scala)
 
